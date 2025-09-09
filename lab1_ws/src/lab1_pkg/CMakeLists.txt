@@ -28,6 +28,7 @@ ament_python_install_package(${PROJECT_NAME})
 # Install standalone Python scripts as executables
 install(PROGRAMS
   scripts/py_talker
+  scripts/relay.py
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
